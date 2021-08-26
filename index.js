@@ -1,4 +1,3 @@
-const isAdult = confirm("당신은 성인 입니까?");
-
-console.log(isAdult)
-//hjgjd
+console.log(10>5);
+console.log(10==5);
+console.log(10!=5);
