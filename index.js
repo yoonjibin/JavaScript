@@ -1,13 +1,3 @@
-const gender ='M';
-const name='Jane';
-const isAdult=true;
+const add =(num1,num2)=> num1+num2;
 
-//if(gender==='M'&&name==='Mike'||isAdult)
-if(gender==='M'&&(name==='Mike'||isAdult))
-{
-     console.log('통과')
-}
-else
-{
-    console.log('돌아가.');
-}
+console.log(add(1,3))
