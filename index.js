@@ -1,3 +1,23 @@
-const add =(num1,num2)=> num1+num2;
+ let days=['월','화','수']
 
-console.log(add(1,3))
+ /*for(let index=0;index<days.length;index++)
+ {
+     console.log(days[index])     
+ }*/
+
+ /*for(let day of days)
+ {
+     console.log(day)
+ }*/
+
+ days.push('목')
+ days.unshift('일')
+
+ for (let index=0;index<days.length;index++)
+ {
+     console.log(days[index])
+ }
+ for(let day of days)
+ {
+     console.log(day)
+ }
